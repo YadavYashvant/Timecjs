@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <ul>
+        <li class="active">Home</li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+    <h1 id="heading">WELCOME</h1>
+    <button type="button" id="showtime"
+    onclick="document.getElementById('demo').innerHTML = Date()">Show time</button>
+    <p id="demo"></p>
+    <p id="letsgo" onclick="fun1()">
+        LET ME SHOW YOU SOMETHING !!
+    </p>
+    <p class="center" onclick="fun2()">
+        This is a class and it should be good if you add a yellow color around it.
+    </p>
+    <button type="submit" id="print" onclick="window.print()" >
+        PRINT
+    </button>
+</body>
+</html>
